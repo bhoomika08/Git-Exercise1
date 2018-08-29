@@ -6,3 +6,4 @@ file1 changed 1st time.
 commit 4 in branch master with no conflict 
 commit 2 in branch feature2
 bug fixes
+start working
