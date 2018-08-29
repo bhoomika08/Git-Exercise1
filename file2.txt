@@ -5,4 +5,3 @@ commit 2 on branch master to make conflict with branch feature1
 commit 3 in branch feature1 in file2.
 commit 3 in branch master to make conflict with branch feature2
 commit 3 in branch feature2 
-
