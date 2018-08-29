@@ -4,5 +4,4 @@ file1 changed 1st time.
 2nd commit in branch feature1
 
 commit 4 in branch master with no conflict 
-commit 2 in branch feature2 
-
+commit 2 in branch feature2
