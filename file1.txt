@@ -2,3 +2,5 @@ This is first file.
 file1 changed 1st time.
 1st commit in branch feature1
 2nd commit in branch feature1
+
+commit 4 in branch master with no conflict 
