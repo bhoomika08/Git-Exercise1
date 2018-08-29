@@ -1,3 +1,5 @@
 This is third file.
 commit 1 in branch master in file3
 commit 5 in branch master to conflict with feature2 branch
+commit 1 in branch feature2.
+
