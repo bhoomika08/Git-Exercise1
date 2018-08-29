@@ -1,1 +1,2 @@
 This is third file.
+commit 1 in branch master in file3
