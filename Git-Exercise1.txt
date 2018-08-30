@@ -63,6 +63,7 @@ rm 'file3.txt'
 
 —-> creating .gitignore file and adding file_ignore.txt in it.
 vins:~/Desktop/Bhoomika/Git-Exercise1 (master)$ subl .gitignore
+vins:~/Desktop/Bhoomika/Git-Exercise1 (master)$ git add .gitignore
 vins:~/Desktop/Bhoomika/Git-Exercise1 (master)$ git commit -m "add .gitignore"
 
 —-> difference between two commits
@@ -102,6 +103,10 @@ vins:~/Desktop/Bhoomika/Git-Exercise1 (master)$ git checkout file1.txt
 —-> changes done in file1.txt and committed those changes
 vins:~/Desktop/Bhoomika/Git-Exercise1 (master)$ git add file1.txt
 vins:~/Desktop/Bhoomika/Git-Exercise1 (master)$ git commit -m "sixth commit-revert changes after committing"
+vins:~/Desktop/Bhoomika/Git-Exercise1 (master)$ git revert HEAD
+[master 8ae7e9a] Revert "sixth commit-revert changes after commiting"
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+ create mode 100644 file3.txt
 
 8. Check repository status before adding changes to staging area, after adding changes to staging area and after committing changes
 
@@ -405,7 +410,7 @@ Rebase change the history to make it more clean and sequential.
 3. Merge last commits are merged to make a new commit.
 In Rebase all the commits of current branch are stacked and then apply on last commit of other branch involved in rebasing.
 
-4. In merge as we combine last two commits so whatsoever conflicts come at that merging commit is show at only one step.
+4. In merge as we combine last two commits so whatsoever conflicts come at that merging commit is shown at only one step.
 In rebase a series of current commit is applied on other branch so conflicts can come at various times as those commits are applied
 
 19. Use git stash
