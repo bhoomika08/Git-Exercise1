@@ -410,7 +410,7 @@ Rebase change the history to make it more clean and sequential.
 3. Merge last commits are merged to make a new commit.
 In Rebase all the commits of current branch are stacked and then apply on last commit of other branch involved in rebasing.
 
-4. In merge as we combine last two commits so whatsoever conflicts come at that merging commit is shown at only one step.
+4. In merge as we combine last commits so whatsoever conflicts come at that merging commit is shown at only one step.
 In rebase a series of current commit is applied on other branch so conflicts can come at various times as those commits are applied
 
 19. Use git stash
